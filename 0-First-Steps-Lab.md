@@ -41,7 +41,7 @@ The instructor will give you a specific line **similar** to this one in the foll
 
 As an example:
 
-> 149.81.75.121   nicekm0    nicekm0.ibm.ws
+> 158.176.71.139   niceafm0    niceafm0.ibm.ws
 
 
 
@@ -132,8 +132,8 @@ If you use **MacOS** or Linux, complete the following steps to add the binaries 
 1. Extract and Move the `oc` and `kubectl` executable files to the `/usr/local/bin` directory.
 
    ```
-   mv /<filepath>/oc /usr/local/bin/oc
-   mv /<filepath>/kubectl /usr/local/bin/kubectl
+   mv /<filepath>/oc /usr/local/bin/
+   mv /<filepath>/kubectl /usr/local/bin/
    ```
 
 2. Make sure that `/usr/local/bin` is listed in your `PATH` system variable. The `PATH` variable contains all directories where your operating system can find executable files. The directories that are listed in the `PATH` variable serve different purposes. `/usr/local/bin` is used to store executable files for software that is not part of the operating system and that was manually installed by the system administrator.
