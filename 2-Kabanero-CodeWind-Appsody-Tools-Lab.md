@@ -55,7 +55,7 @@ Enter your credentials
 For example:
 
 ```
-158.176.105.4 nice-cluster-3f022ac5fd-master-0.IBM-OpenShift.cloud
+158.176.71.139 nice-cluster-3f022ac5fd-master-0.IBM-OpenShift.cloud
 ```
 
 
@@ -400,7 +400,7 @@ Running command: docker pull kabanero/nodejs-express:0.2
 Digest: sha256:4ebaf69ff17c011a54f857099ef4fa6ba5042afb91dfcb57df96e2f84cdee4bf
 Status: Image is up to date for kabanero/nodejs-express:0.2
 docker.io/kabanero/nodejs-express:0.2
-Running docker command: docker run --rm -p 3000:3000 -p 8080:8080 -p 9229:9229 --name mynewapp-dev -v /Users/phil/sample/t2i/mynewapp/:/project/user-app -v mynewapp-deps:/project/user-app/node_modules -v /Users/phil/.appsody/appsody-controller:/appsody/appsody-controller -t --entrypoint /appsody/appsody-controller kabanero/nodejs-express:0.2 --mode=run
+Running docker command: docker run --rm -p 3000:3000 -p 8080:8080 -p 9229:9229 --name mynewapp-dev -v /Users/xxxx/sample/t2i/mynewapp/:/project/user-app -v mynewapp-deps:/project/user-app/node_modules -v /Users/phil/.appsody/appsody-controller:/appsody/appsody-controller -t --entrypoint /appsody/appsody-controller kabanero/nodejs-express:0.2 --mode=run
 [Container] Running APPSODY_PREP command: npm install --prefix user-app
 added 170 packages from 578 contributors and audited 295 packages in 3.789s
 [Container] found 0 vulnerabilities
@@ -487,7 +487,7 @@ Now you can navigate on the left top pane to locate the project (mynewapp) and t
 
 ![image-20191012184723621](images/image-20191012184723621-0898843.png)
 
-Change the "Hello from Appsody" by "**Hello from Philippe**"or any message of your choice. 
+Change the "Hello from Appsody" by "**Hello from YOURNAME**"or any message of your choice. 
 
 ![image-20191012185009747](images/image-20191012185009747-0899009.png)
 
